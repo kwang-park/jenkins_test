@@ -4,6 +4,6 @@ project(jenkins_test)
 
 cmake_policy(SET CMP0057 NEW)
 
-file (GLOB TEST_SRCS *.cpp)
+file (GLOB TEST_SRCS src/*.cpp)
 
-add_executable(test TEST_SRCS)
+add_executable(test ${TEST_SRCS})
