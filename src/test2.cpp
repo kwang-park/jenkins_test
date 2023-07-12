@@ -2,5 +2,6 @@
 
 int test() {
   int a = 6;
-  return a;
+  int b = 4;
+  return a + b;
 }
