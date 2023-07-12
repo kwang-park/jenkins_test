@@ -1,0 +1,14 @@
+name: cpp-style-check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+  push:
+    branches: master
+
+    jobs:
+      test:
+        runs-on: ubuntu-20.04
+        steps:
+          - run: echo "test!"
