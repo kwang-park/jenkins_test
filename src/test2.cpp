@@ -1,5 +1,6 @@
 #include <iostream>
 
 int test() {
-  return 1;
+  int a = 5;
+  return a;
 }
